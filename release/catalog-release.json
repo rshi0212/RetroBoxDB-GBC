@@ -1,18 +1,18 @@
 {
-  "tag": "gbc-catalog-20261005",
-  "title": "Game Boy Color Catalog: storage v4, No-Intro DATs, RetroAchievements and Chinese names",
+  "tag": "gbc-catalog-20261005-2",
+  "title": "Game Boy Color Catalog: RetroAchievements ROM set and source collections",
   "platform": "gbc",
   "catalog_name": "RetroBoxDB.GBC.Catalog.sqlite",
-  "base_url": "https://github.com/rshi0212/RetroBoxDB-GBC/releases/download/gbc-catalog-base-20261005/RetroBoxDB.GBC.Catalog.sqlite",
-  "base_sha256": "b945c808ad2e754de6782c4fb337afd7a721bffdf42e81220c24b76e7e823453",
+  "base_url": "https://github.com/rshi0212/RetroBoxDB-GBC/releases/download/gbc-catalog-base-20261005-2/RetroBoxDB.GBC.Catalog.sqlite",
+  "base_sha256": "16e0fb846ee013427ec8d1ca572fdf86c741237304268b0a3f90b64c42d4c5eb",
   "data_table_sha256": {
     "archive_entries": {
-      "rows": 2680,
-      "sha256": "5b358716965ef1c39b40e8d223a6bcec9e29937a92994abfb0a0d84182e5f440"
+      "rows": 2932,
+      "sha256": "f372bff9f1b4420940228bb6233de849aa3f962a29c115d9463950c466007a08"
     },
     "archive_plans": {
-      "rows": 2679,
-      "sha256": "c36724b8c8bc7ac3534b6ab3f89c18d3e8aa5c6cce7bae9b2be6e0abd0f66314"
+      "rows": 2931,
+      "sha256": "9886492793b56ddb0ca5171585d07d88c447ad9920a78becf2bfe45a46ecf9ec"
     },
     "archive_profiles": {
       "rows": 1,
@@ -43,16 +43,20 @@
       "sha256": "b3e76d1a2e23fec6a48f0effc157fcf53a6bef9548b4acd76509bd4066ec77e2"
     },
     "events": {
-      "rows": 23,
-      "sha256": "e348c19e3de6569a8f813e36c14b26e12bc3f51248a9906502c8bd1d47d0bc7e"
+      "rows": 32,
+      "sha256": "13b693aa80f57c0ae565ce7c05401a3d9094b774b861e2698fcab087d038fe25"
+    },
+    "fds_hardware": {
+      "rows": 0,
+      "sha256": "375c736a39de19330edc6ac46a26acccfda18a13e70ba87f22f6d39da91d9c42"
     },
     "file_archives": {
-      "rows": 5482,
-      "sha256": "dad522ff828a0ccfc177ce88574db50f87d97707636163a5e197dd3f7bdfcff6"
+      "rows": 6095,
+      "sha256": "3349e905f50823d99e815b4d3181521b6d4b5300c860332f0ee3d8cb137ffa80"
     },
     "files": {
-      "rows": 8496,
-      "sha256": "a7a96013af5483e52234c5f00f5d59314c73008db567d808656a943e0a427347"
+      "rows": 9684,
+      "sha256": "ef9c200a6c407546b7afbe5064394e01141eb12b8572e52d1e53652fdce0e7d4"
     },
     "frontend_fields": {
       "rows": 40,
@@ -95,8 +99,8 @@
       "sha256": "b9f48571f5e425d96f02be863fb309df0b8d168a680b6eba7ab1ea7f2cb00f70"
     },
     "gb_hardware": {
-      "rows": 2604,
-      "sha256": "9298e97d3cb09559ffcffdf915e3c7bceb8e3cb43fcf85c2be903f315f426158"
+      "rows": 2783,
+      "sha256": "5b380cd728cb53a7b009bda2dbe7bcb2f7e2d3c35e340eba1ba14ca3ec46d5ab"
     },
     "gba_hardware": {
       "rows": 0,
@@ -116,11 +120,11 @@
     },
     "meta": {
       "rows": 23,
-      "sha256": "663f2f312aa919ec050275ab6c1396f1ca29689a1fa608207b335f5237633867"
+      "sha256": "5e4b60ec722daa852360e672f7ec55778642966ed5064795c8cef0841457822f"
     },
     "naming_decisions": {
-      "rows": 349,
-      "sha256": "03501c271455941ead5b65d4269fd2377d119c6255737d62a2f317faba3a5529"
+      "rows": 669,
+      "sha256": "de166ae76045382bf9885da91c2d0ed3f7c7a7dc99e31a26f256df5f6ee0d557"
     },
     "nes_hardware": {
       "rows": 0,
@@ -187,20 +191,20 @@
       "sha256": "fd5a7a33f506e106df266f6402be4ab11593068d2660fc8a3013ceb920dcf5f9"
     },
     "object_families": {
-      "rows": 2605,
-      "sha256": "2b411c93ca26ef30a6234c173cfea99132731129896d601a0ef2f6fd1f5d010b"
+      "rows": 2784,
+      "sha256": "039a5334dc741b09e71ff23392837e36ad08686dd0886511a9b4a2acca935443"
     },
     "objects": {
-      "rows": 5291,
-      "sha256": "144926164e39c50db8f2627336a2290e86e3f1372cf50470a6fe1c637578e483"
+      "rows": 5722,
+      "sha256": "8c53f39cef3247e2044e56c8933705fedb6c85c6af630bdf6629b8839305598c"
     },
     "package_members": {
-      "rows": 12334,
-      "sha256": "13c7f2e5d0f512115fd82e60c69948863f50b851383a2c1313acd745f425275d"
+      "rows": 12514,
+      "sha256": "15950e214fe08c04e071d804c28545ae7f2eaaf3535f3fa46e98ceb6acf75efe"
     },
     "packages": {
-      "rows": 12334,
-      "sha256": "48fce6bcf36822bc1b64e028cf28dc2cbd479a752554c385358484c9e9d4a23e"
+      "rows": 12514,
+      "sha256": "b7b9d8eae12880f943e2fdaa6b6b9cc24d22b8e6960c77c6d4a6e553de16b64b"
     },
     "platforms": {
       "rows": 1,
@@ -235,20 +239,20 @@
       "sha256": "3c642e0d29d1e5dab60d2328c3d565be7c0acc7c70e44cb33566db7e538d7ffa"
     },
     "rom_components": {
-      "rows": 7813,
-      "sha256": "e78aaddf0b5290509a88f1155baa0d887fec7957d782fb357fd9c26c5bd6ffc3"
+      "rows": 8350,
+      "sha256": "745c56f2702e9f655fa0781238ec6475d645fd1bb9d865e0fd310d1c0d98a0b1"
     },
     "rom_ra_hashes": {
-      "rows": 2604,
-      "sha256": "bef2b5093f54b8e91dedbe83c0bee8946e5748b62b71e11186441d2d29c396b2"
+      "rows": 2783,
+      "sha256": "faa48fddf214839fa900994b58ff304647ee12fe713561792981a84f2b769049"
     },
     "rom_releases": {
-      "rows": 2466,
-      "sha256": "e3fbdc1c0c63665783412ebf4d6132a48480f2217080ef2f7742a810325c784e"
+      "rows": 2503,
+      "sha256": "081c21a7f89d1dd871fdcb92e76314b9d94b08c047fa921a1b1455ef7efb4f13"
     },
     "roms": {
-      "rows": 2605,
-      "sha256": "a4b95e6b2b87146909e7239f27dc0fd813cf399cffb6c51b89315843d7b090c7"
+      "rows": 2784,
+      "sha256": "b469d9df0159c236d05af71b45d30d3edf0b7fe817d418574122685496db2bd0"
     },
     "scrape_records": {
       "rows": 0,
@@ -267,8 +271,12 @@
       "sha256": "affa7bfc7d2085320a163fb9ea1ce7500c1ac222aab17389817a91d784922466"
     },
     "solid_group_families": {
-      "rows": 1631,
-      "sha256": "a2193f94bd93e9816ba52f16611002afbf8071bdea49bb23b30d2bdaaaef51c6"
+      "rows": 1703,
+      "sha256": "b565d363c942dcbdd4e7c7b1ed27af9432fafd2070dcc1e07bb9fdaf07411047"
+    },
+    "source_collections": {
+      "rows": 4,
+      "sha256": "24f6207982a8d6dadd67509a2a91283edfe51a4d935bae492f0107222efc2089"
     },
     "sources": {
       "rows": 5032,
@@ -279,8 +287,8 @@
       "sha256": "d34d00b4de69a479200769531bc6d17502d5047117c15922c0616e01a1cbc24a"
     },
     "validations": {
-      "rows": 12334,
-      "sha256": "ce1f805119ebebca6e3be0f990e16b58c5e5e81b677b414aae83269cb51df632"
+      "rows": 12514,
+      "sha256": "4a33de6f2851372e13ac9fdda742c94fdac772eb8f363d4e5ae32ad0c1b514a0"
     }
   },
   "resources": {
@@ -372,6 +380,10 @@
       "kind": "json",
       "path": "assessment/data/storage-experiment-gb-gbc-gba.json"
     },
+    "storage-experiment-fds": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-fds.json"
+    },
     "storage-curves": {
       "kind": "json",
       "path": "assessment/data/storage-curves.json"
@@ -387,6 +399,10 @@
     "ra-report-games.csv": {
       "kind": "csv",
       "path": "reports/ra-gbc-games.csv"
+    },
+    "ra-report-missing.csv": {
+      "kind": "csv",
+      "path": "reports/ra-gbc-missing.csv"
     }
   },
   "repo_tests": [
