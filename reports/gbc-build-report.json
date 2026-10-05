@@ -1,0 +1,1397 @@
+{
+  "platform": "gbc",
+  "started_at": "2026-10-04T11:30:12.337034+00:00",
+  "engine_version": "4.0.0",
+  "dat_sets": [
+    {
+      "id": 1,
+      "name": "Nintendo - Game Boy Color (Parent-Clone)",
+      "version": "20260602-074724"
+    },
+    {
+      "id": 2,
+      "name": "Nintendo - Game Boy Color (Parent-Clone)",
+      "version": "20260713-134329"
+    },
+    {
+      "id": 3,
+      "name": "Nintendo - Game Boy Color (Parent-Clone)",
+      "version": "20260715-062319"
+    },
+    {
+      "id": 4,
+      "name": "Nintendo - Game Boy Color (Parent-Clone)",
+      "version": "20260814-104253"
+    },
+    {
+      "id": 5,
+      "name": "Nintendo - Game Boy Color (Parent-Clone)",
+      "version": "20261001-131920"
+    }
+  ],
+  "completed_stages": [
+    "dat_import",
+    "rom_import",
+    "scan_diff_catalog",
+    "nointro",
+    "packages",
+    "retroachievements",
+    "game_names"
+  ],
+  "rom_import": {
+    "directories": [
+      "/mnt/MyShare/No-Intro/Nintendo - Game Boy Color",
+      "/mnt/MyShare/No-Intro/Nintendo - Game Boy Color (Aftermarket)",
+      "/mnt/MyShare/No-Intro/Nintendo - Game Boy Color (Private)"
+    ],
+    "families": 1631,
+    "family_assignment": {
+      "family_from_dat_or_db": 2904,
+      "family_from_title": 102
+    },
+    "errors": [],
+    "groups": 77,
+    "raw_group_bytes": 2422120176,
+    "stored_group_bytes": 487886044,
+    "zips": 3006,
+    "sidecar_files": 0,
+    "seconds": 847
+  },
+  "scan": {
+    "1": {
+      "match": 2467,
+      "mismatch": 0,
+      "unverifiable": 0,
+      "no_candidate": 137
+    },
+    "2": {
+      "match": 2467,
+      "mismatch": 0,
+      "unverifiable": 0,
+      "no_candidate": 145
+    },
+    "3": {
+      "match": 2467,
+      "mismatch": 0,
+      "unverifiable": 0,
+      "no_candidate": 145
+    },
+    "4": {
+      "match": 2467,
+      "mismatch": 0,
+      "unverifiable": 0,
+      "no_candidate": 147
+    },
+    "5": {
+      "match": 2466,
+      "mismatch": 0,
+      "unverifiable": 0,
+      "no_candidate": 156
+    }
+  },
+  "dat_diff": {
+    "1->5": {
+      "unchanged": 2600,
+      "added": 19,
+      "renamed": 3,
+      "removed": 1
+    },
+    "2->5": {
+      "unchanged": 2609,
+      "added": 11,
+      "renamed": 2,
+      "removed": 1
+    },
+    "3->5": {
+      "unchanged": 2609,
+      "added": 11,
+      "renamed": 2,
+      "removed": 1
+    },
+    "4->5": {
+      "unchanged": 2611,
+      "added": 9,
+      "renamed": 2,
+      "removed": 1
+    }
+  },
+  "catalog": {
+    "games": 1576,
+    "releases": 2622,
+    "old_dat_games_linked": 10438,
+    "rom_release_links": 2466
+  },
+  "nointro": {
+    "snapshot_id": 1,
+    "version": "20261001-131920",
+    "archives": 2678,
+    "files": 2921,
+    "files_with_local_payload": 2514,
+    "sources": 5027,
+    "dumplog_rows": 2678,
+    "dat_links": 13064,
+    "archive_release_links": 2607,
+    "hardware_assertions": 2830,
+    "dumplog_status": {
+      "trusted_unverified": 1521,
+      "verified": 448,
+      "unverified": 703,
+      "bad": 4,
+      "no_dump": 2
+    },
+    "anomalies": {
+      "dumplog_hardware_review": 5,
+      "file_without_sha256": 1292
+    }
+  },
+  "packages": {
+    "packages_by_dat_set": {
+      "1": 2467,
+      "2": 2467,
+      "3": 2467,
+      "4": 2467,
+      "5": 2466
+    },
+    "errors": []
+  },
+  "retroachievements": {
+    "snapshot_id": 1,
+    "console_id": 6,
+    "fetched_at": "2026-10-04T12:11:19.203684+00:00",
+    "games": 1299,
+    "hashes": 1579,
+    "games_with_achievements": 419,
+    "hashes_of_games_with_achievements": 616,
+    "local_roms_matched": 413,
+    "ra_games_with_local_rom": 327,
+    "dat_entries_matched": 2215,
+    "ra_games_in_any_dat": 328,
+    "hashes_with_achievements_unexplained": 165,
+    "by_category_local": {
+      "Homebrew": 27,
+      "Official": 289,
+      "Prototype": 6,
+      "Unlicensed": 5
+    }
+  },
+  "game_names": {
+    "source_name": "Nintendo - Game Boy Color.csv",
+    "source_sha256": "1d5712b005f2d7ec2f4d28ba5c6680d3500e673497a09a4744cc64db3f825531",
+    "normalization_version": "parentheses-whitespace-casefold-v1",
+    "import_id": 1,
+    "matching_version": "game-qualified-title-v1",
+    "rows": 2124,
+    "rows_with_chinese": 1763,
+    "unique_chinese_names": 1156,
+    "normalized_titles": 1598,
+    "matched_rows": 1945,
+    "matched_rows_with_chinese": 1590,
+    "matched_releases": 1945,
+    "releases_with_chinese": 1590,
+    "matched_games": 1143,
+    "matched_roms": 1945,
+    "matched_links": 1945,
+    "ambiguous_links": 8,
+    "ambiguous_rows": 7,
+    "unmatched_rows": 172,
+    "unresolved_rows": [
+      {
+        "row_number": 421,
+        "name_en": "Dragon Quest Monsters 2 - Maruta no Fushigi na Kagi - Iru no Bouken (Japan) (SGB Enhanced) (GB Compatible)",
+        "name_cn": "勇者斗恶龙怪兽篇 2 - 玛鲁塔的不可思议钥匙 伊尔的冒险",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 422,
+        "name_en": "Dragon Quest Monsters 2 - Maruta no Fushigi na Kagi - Ruka no Tabidachi (Japan) (SGB Enhanced) (GB Compatible)",
+        "name_cn": "勇者斗恶龙怪兽篇 2 - 玛鲁塔的不可思议钥匙 鲁卡的旅程",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 423,
+        "name_en": "Dragon Quest Monsters 2 - Maruta no Fushigi na Kagi - Ruka no Tabidachi (Japan) (Rev 1) (SGB Enhanced) (GB Compatible)",
+        "name_cn": "勇者斗恶龙怪兽篇 2 - 玛鲁塔的不可思议钥匙 鲁卡的旅程",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 576,
+        "name_en": "Get!! Loto Club (Japan) (Proto)",
+        "name_cn": null,
+        "status": "ambiguous"
+      },
+      {
+        "row_number": 599,
+        "name_en": "Golf King (Europe) (En,Fr,De) (Proto)",
+        "name_cn": null,
+        "status": "ambiguous"
+      },
+      {
+        "row_number": 1262,
+        "name_en": "Pokemon Picross (Japan) (Proto)",
+        "name_cn": null,
+        "status": "ambiguous"
+      },
+      {
+        "row_number": 1314,
+        "name_en": "Prince of Persia (Japan) (Proto)",
+        "name_cn": "波斯王子",
+        "status": "ambiguous"
+      },
+      {
+        "row_number": 1399,
+        "name_en": "Robopon - Star Version (USA) (Proto)",
+        "name_cn": null,
+        "status": "ambiguous"
+      },
+      {
+        "row_number": 1559,
+        "name_en": "Soreike! Anpanman - Fushigi na Nikoniko Album (Japan) (SGB Enhanced) (GB Compatible)",
+        "name_cn": "前进面包超人 - 不可思议的相册",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1613,
+        "name_en": "Super Breakout! (Europe) (En,Fr,De,Es,It,Nl) (GB Compatible)",
+        "name_cn": "超级打砖块",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1614,
+        "name_en": "Super Breakout! (USA) (GB Compatible)",
+        "name_cn": "超级打砖块",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1640,
+        "name_en": "Supershot Golf Robot (USA) (Proto)",
+        "name_cn": null,
+        "status": "ambiguous"
+      },
+      {
+        "row_number": 1648,
+        "name_en": "Sutte Hakkun GB (Japan) (Proto)",
+        "name_cn": null,
+        "status": "ambiguous"
+      },
+      {
+        "row_number": 1960,
+        "name_en": "Pokemon Trading Card Game 2 - The Invasion of Team GR! (Japan)",
+        "name_cn": "口袋妖怪卡片对战 2 - GR团参上！",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1961,
+        "name_en": "Gen the Carpenter (Japan) (SGB Enhanced) (GB Compatible) [T-En by PentarouZero v1.0] [n]",
+        "name_cn": "大力工头阿源君",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1962,
+        "name_en": "Bokujou Monogatari GB2 (Japan) [CHS]",
+        "name_cn": "牧场物语 2",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1963,
+        "name_en": "Bokujou Monogatari GB3 - Boy Meets Girl (Japan) [CHS]",
+        "name_cn": "牧场物语 3",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1964,
+        "name_en": "Pokemon Card GB2 - GR Dan Sanjou! (Japan) [CHT]",
+        "name_cn": "口袋妖怪卡片 2 - GR团参上！",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1965,
+        "name_en": "Yu-Gi-Oh! Duel Monsters 4 - Saikyou Kettousha Senki - Yuugi Deck (Japan) [CHT]",
+        "name_cn": "游戏王 怪兽之决斗 4 - 最强决斗者战记 游戏篇",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1966,
+        "name_en": "Daikatana (Europe) [CHT]",
+        "name_cn": "大刀",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1967,
+        "name_en": "Fushigi no Dungeon - Fuurai no Shiren GB2 - Sabaku no Majou (Japan) [CHS]",
+        "name_cn": "不可思议的迷宫 风来之西林 2 - 沙漠魔城",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1968,
+        "name_en": "Monster Tactics (Japan) [CHS]",
+        "name_cn": "怪兽战略 - 迷宫兵团战",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1969,
+        "name_en": "Jet de Go! (Japan) [CHS]",
+        "name_cn": "民航客机Go!",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1970,
+        "name_en": "GB Sacker Gold Finger & Memory Card (China) [CHT]",
+        "name_cn": "GB掠夺者",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1971,
+        "name_en": "Heroes of Jin Yong (China) [CHS]",
+        "name_cn": "金庸群侠传",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1972,
+        "name_en": "Castlevania DX (China) [CHT]",
+        "name_cn": "恶魔城 DX",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1973,
+        "name_en": "Digimon 2 - Jade Version (China) [CHT]",
+        "name_cn": "数码暴龙 2 翡翠版",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1974,
+        "name_en": "Digimon 2 (China) [CHT]",
+        "name_cn": "数码暴龙 2",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1975,
+        "name_en": "Digimon 3 - Crystal Version (China) [CHT]",
+        "name_cn": "数码暴龙 3 水晶版",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1976,
+        "name_en": "Digimon 2 - 4 (China) [CHT]",
+        "name_cn": "数码暴龙 2 - 4",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1977,
+        "name_en": "Digimon 2 - Crystal Version 2 (China) [CHT]",
+        "name_cn": "数码暴龙 2 水晶版 2",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1978,
+        "name_en": "Digimon 2 - 5 (China) [CHT]",
+        "name_cn": "数码暴龙 2 - 5",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1979,
+        "name_en": "Ambush from Ten Sides - Dragonslayer Chapter (China) [CHT]",
+        "name_cn": "十面埋伏 屠龙篇",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1980,
+        "name_en": "HOT e'Fighter (China) [CHT]",
+        "name_cn": "热血e世代格斗",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1981,
+        "name_en": "Fantasy War (China) [CHT]",
+        "name_cn": "太空战士 X",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1982,
+        "name_en": "Gals Fighters (China) [CHS]",
+        "name_cn": "格斗天王 2003",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1983,
+        "name_en": "Harry Potter 3 (China) [CHT]",
+        "name_cn": "哈利波特 3",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1984,
+        "name_en": "Harry Potter (China) [CHT]",
+        "name_cn": "哈利波特",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1985,
+        "name_en": "Heroic Sword (China) [CHS]",
+        "name_cn": "英雄剑",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1986,
+        "name_en": "Ice Age (China) [CHT]",
+        "name_cn": "雪原历险",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1987,
+        "name_en": "King of Fighters R-2 (China) [CHS]",
+        "name_cn": "格斗至尊 2003",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1988,
+        "name_en": "Final Robot (China) [CHT]",
+        "name_cn": "雷弩机神",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1989,
+        "name_en": "Mark of the Wolfs (China) [CHS]",
+        "name_cn": "饿狼 2003",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1990,
+        "name_en": "Mark of the Wolves (China) [CHT]",
+        "name_cn": "饿狼",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1991,
+        "name_en": "Metal Slug 2001 (China) [CHT]",
+        "name_cn": "越南战役 2001",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1992,
+        "name_en": "Metal Slug 2001 (China) [CHT]",
+        "name_cn": "特殊部队 2001",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1993,
+        "name_en": "Metal Slug 2001 (China) [CHS]",
+        "name_cn": "越南战役 2001",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1994,
+        "name_en": "Mo Shou Zheng Ba 3 - Hun Luan Zhi Jie (China) [CHT]",
+        "name_cn": "魔兽争霸 3 - 混乱之劫",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1995,
+        "name_en": "Xin Guang Ming Yu Hei An (China) [CHT]",
+        "name_cn": "新光明与黑暗",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1996,
+        "name_en": "Sheng Huo Jiang Mo Lu Wai Chuan - Guang Yu An De Lun Hui (China) [CHT]",
+        "name_cn": "圣火降魔录外传 - 光与暗的轮回",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1997,
+        "name_en": "Dragon Ball Z Fighting (China) [CHT]",
+        "name_cn": "龙珠闹剧 2005",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1998,
+        "name_en": "Pocket Monsters GO!GO!GO!! (China) [CHT]",
+        "name_cn": "怪兽GO!GO!GO!!",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 1999,
+        "name_en": "Rockman DX3 (China) [CHT]",
+        "name_cn": "洛克人 X3",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2000,
+        "name_en": "Rockman 3 (China) [CHT]",
+        "name_cn": "洛克人 3",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2001,
+        "name_en": "Final Fantasy - Saishuu Gensou (China) [CHT]",
+        "name_cn": "最终幻想 - 无尽沙加",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2002,
+        "name_en": "San Goku Shi - Act C (China) [CHT]",
+        "name_cn": "吞食天地 - 赤壁之战",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2003,
+        "name_en": "San Guo Zhi - Ao Shi Tian Xia (China) [CHT]",
+        "name_cn": "三国志 - 傲视天下",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2004,
+        "name_en": "San Guo Zhi - Ao Shi Tian Xia (China) [CHS]",
+        "name_cn": "三国志 - 傲视天下",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2005,
+        "name_en": "Shui Hu Shen Shou (China) [CHT]",
+        "name_cn": "水浒神兽",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2006,
+        "name_en": "Shui Hu Shen Shou (China) [CHS]",
+        "name_cn": "水浒神兽",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2007,
+        "name_en": "Shui Hu Zhuan (China) [CHT]",
+        "name_cn": "水浒传",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2008,
+        "name_en": "Shin Sangokumusou 2 (China) [CHT]",
+        "name_cn": "真三国无双 2",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2009,
+        "name_en": "Ambush from Ten Sides - Sky Dragon Chapter (China) [CHT]",
+        "name_cn": "十面埋伏 天龙篇",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2010,
+        "name_en": "Soul Falchion (China) [CHT]",
+        "name_cn": "格斗剑神",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2011,
+        "name_en": "Stone Age (China) [CHS]",
+        "name_cn": "石器时代 - 精灵王诞生",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2012,
+        "name_en": "Super Fighters '99 (China) [CHT]",
+        "name_cn": "超级格斗 99",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2013,
+        "name_en": "Super Robot Taisen Final (China) [CHT]",
+        "name_cn": "超级机器人大战 F 完结篇",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2014,
+        "name_en": "Tiger A Dragon (China) [CHS]",
+        "name_cn": "卧虎藏龙",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2015,
+        "name_en": "Metal Max (China) [CHT]",
+        "name_cn": "重装奇兵",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2016,
+        "name_en": "Millions of Monopoly Kin (China) [CHT]",
+        "name_cn": "百万大富翁 金版",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2017,
+        "name_en": "Bomberman II (China) [CHT]",
+        "name_cn": "疯狂阿给 2",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2018,
+        "name_en": "Millions of Monopoly Kin (China) [CHS]",
+        "name_cn": "百万大富翁 金版",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2019,
+        "name_en": "Infocolor PDA (China) [CHT]",
+        "name_cn": "PDA",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2020,
+        "name_en": "Heroes of Jin Yong (China) [CHS]",
+        "name_cn": "金庸群侠传",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2021,
+        "name_en": "Timer Monster (China) [CHT]",
+        "name_cn": "时空星兽",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2022,
+        "name_en": "Chong Wu Xiao Jing Ling - Jie Jin Ta Zhi Wang (China) [CHT]",
+        "name_cn": "宠物小精灵 - 结金塔之王",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2023,
+        "name_en": "Digimon 9 - Greymon (China) [CHT]",
+        "name_cn": "数码暴龙 9 暴龙篇",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2024,
+        "name_en": "Xin Feng Shen Bang (China) [CHT]",
+        "name_cn": "新封神榜",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2025,
+        "name_en": "Spiderman III - Movie Version (China) [CHS]",
+        "name_cn": "蜘蛛侠 3",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2026,
+        "name_en": "Hai Zhan Qi Bing (China) [CHT]",
+        "name_cn": "海战奇兵",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2027,
+        "name_en": "Harry Potter - The Chamber of Secrets (China) [CHT]",
+        "name_cn": "哈利小子 - 密室之秘",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2028,
+        "name_en": "Star Wars Episode II - Attack of the Clones (China) [CHS]",
+        "name_cn": "星球大战 2 - 克隆人战役",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2029,
+        "name_en": "Lord of the Rings, The - Part 1 (China) [CHT]",
+        "name_cn": "指环王 - 首部曲",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2030,
+        "name_en": "Quan Ba Tian Xia (China) [CHT]",
+        "name_cn": "拳霸天下",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2031,
+        "name_en": "Lion King, The (China) [CHT]",
+        "name_cn": "精灵王",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2032,
+        "name_en": "Super Robot Taisen X (China) [CHT]",
+        "name_cn": "超级机器人大战 X",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2033,
+        "name_en": "Taichi Kid - Mythology Adventure (China) [CHT]",
+        "name_cn": "小太极 - 神话历险",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2034,
+        "name_en": "Lilo & Stitch (China) [CHT]",
+        "name_cn": "太空宝贝",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2035,
+        "name_en": "Pocket Monsters - Sapphire (China) [CHT]",
+        "name_cn": "口袋怪兽 - 蓝宝石",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2036,
+        "name_en": "Digimon - Crystal Version II (China) [CHT]",
+        "name_cn": "数码暴龙 - 水晶版 2",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2037,
+        "name_en": "Sheng Shou Wu Yu - Shen Long Chuan Shuo (China) [CHT]",
+        "name_cn": "圣兽物语 - 神龙传说",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2038,
+        "name_en": "Qi Tian Da Sheng - Sun Wu Kong (China) [CHT]",
+        "name_cn": "齐天大圣 - 孙悟空",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2039,
+        "name_en": "Devil Island (China) [CHT]",
+        "name_cn": "恶魔岛",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2040,
+        "name_en": "Harry Potter 2 - The Chamber of Secrets (China) [CHT]",
+        "name_cn": "哈利波特 2 - 消失密室",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2041,
+        "name_en": "Harry Potter IV (China) [CHT]",
+        "name_cn": "哈利小子 4",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2042,
+        "name_en": "Shao Lin Shi San Gun - Ying Xiong Jiu Zhu (China) [CHS]",
+        "name_cn": "少林十三棍 - 英雄救主",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2043,
+        "name_en": "Metal Gear Solid II (China) [CHT]",
+        "name_cn": "合金装备 2",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2044,
+        "name_en": "Legend (China) [CHT]",
+        "name_cn": "传说",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2045,
+        "name_en": "Dragon Quest VIII (China) [CHT]",
+        "name_cn": "勇者斗恶龙 8",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2046,
+        "name_en": "Golden Sun Gaiden (China) [CHT]",
+        "name_cn": "黄金太阳外传 - 封印之远古炼金术",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2047,
+        "name_en": "Onimusha 2 (China) [CHT]",
+        "name_cn": "鬼武者 2",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2048,
+        "name_en": "Crazy Richman (China) [CHT]",
+        "name_cn": "疯狂大富翁",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2049,
+        "name_en": "Digimon D-3 (China) [CHT]",
+        "name_cn": "超进化 数码宝贝D-3",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2050,
+        "name_en": "Pocket Monsters - Platinum (China) [CHS]",
+        "name_cn": "口袋妖怪 白金",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2051,
+        "name_en": "Metal Slug 3 (China) [CHT]",
+        "name_cn": "越南战役 3",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2052,
+        "name_en": "Gu Huo Lang II (China) [CHT]",
+        "name_cn": "古惑狼 2",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2053,
+        "name_en": "2003 Digimon - Fight Version (China) [CHS]",
+        "name_cn": "数码暴龙 格斗版",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2054,
+        "name_en": "Ice Age II (China) [CHT]",
+        "name_cn": "冰原历险记 2",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2055,
+        "name_en": "Nausicaa II (China) [CHS]",
+        "name_cn": "风之谷 2",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2056,
+        "name_en": "Rockman X5 (China) [CHT]",
+        "name_cn": "洛克人 X5",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2057,
+        "name_en": "World of Warcraft - Mars (China) [CHT]",
+        "name_cn": "魔兽世纪 - 战神",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2058,
+        "name_en": "Devil Town (China) [CHT]",
+        "name_cn": "恶魔城 风云篇",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2059,
+        "name_en": "Pearl Pocket Monsters II (China) [CHT]",
+        "name_cn": "明珠口袋怪兽 2",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2060,
+        "name_en": "Pearl Pocket Monsters III (China) [CHT]",
+        "name_cn": "明珠口袋怪兽 3",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2061,
+        "name_en": "Gundam Story II (China) [CHT]",
+        "name_cn": "钢弹物语 2",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2062,
+        "name_en": "Water Margin (China) [CHT]",
+        "name_cn": "水浒传 - 群魔风云录",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2063,
+        "name_en": "Heroic Sword II (China) [CHS]",
+        "name_cn": "英雄剑 2",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2064,
+        "name_en": "Journey to the West - Sun WuKong (China) [CHT]",
+        "name_cn": "西游记 - 孙悟空",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2065,
+        "name_en": "Digimon - Computer Version (China) [CHT]",
+        "name_cn": "数码暴龙 电脑篇",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2066,
+        "name_en": "Capcom vs SNK (China) [CHT]",
+        "name_cn": "英雄天下",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2067,
+        "name_en": "Sangokushi V (China) [CHT]",
+        "name_cn": "三国志 5",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2068,
+        "name_en": "Pocket Monsters Ruby - Team Rocket (China) [CHT]",
+        "name_cn": "数码宝贝 - 火箭兵团",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2069,
+        "name_en": "Pocket Monsters - Mewtwo Strikes Back (China) [CHT]",
+        "name_cn": "数码宝贝 - 超梦梦反击战",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2070,
+        "name_en": "Pocket Monsters - God of Sea (China) [CHT]",
+        "name_cn": "数码宝贝 - 海之神",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2071,
+        "name_en": "Lord of the Rings 3, The - No Perfect World (China) [CHT]",
+        "name_cn": "魔戒 3 - 不完美的世界",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2072,
+        "name_en": "Digimon DX6 (China) [CHT]",
+        "name_cn": "数码宝贝 DX6",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2073,
+        "name_en": "Ambush from Ten Sides - Fung Wan Chapter (China) [CHT]",
+        "name_cn": "十面埋伏 风云篇",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2074,
+        "name_en": "Legend of Old Master Q (China) [CHT]",
+        "name_cn": "老夫子传奇",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2075,
+        "name_en": "Metal Slug X - Enemy Territory (China) [CHT]",
+        "name_cn": "越南战役 X - 深入敌后",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2076,
+        "name_en": "Metal Max (China) [CHS]",
+        "name_cn": "传奇",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2077,
+        "name_en": "Digimon Diamond (China) [CHT]",
+        "name_cn": "超进化 数码暴龙 钻石版",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2078,
+        "name_en": "Tai Kong Zhan Shi Jing Dian Ban (China) [CHT]",
+        "name_cn": "太空战士 经典版",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2079,
+        "name_en": "Final Fantasy DX (China) [CHT]",
+        "name_cn": "最终幻想 DX",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2080,
+        "name_en": "Metal Slug (China) [CHT]",
+        "name_cn": "特殊部队 - 基地",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2081,
+        "name_en": "Shining Force (China) [CHT]",
+        "name_cn": "新光明与黑暗 - 诸神的遗产",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2082,
+        "name_en": "Legend of the Condor Heroes (China) [CHT]",
+        "name_cn": "新射雕英雄传",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2083,
+        "name_en": "Soul Falchion (China) [CHT]",
+        "name_cn": "格斗剑神",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2084,
+        "name_en": "Zook Hero 2 (China) [CHT]",
+        "name_cn": "路克英雄 2",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2085,
+        "name_en": "Zook Hero Z (China) [CHT]",
+        "name_cn": "路克英雄 Z",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2086,
+        "name_en": "Digimon Pocket (China) [CHT]",
+        "name_cn": "数码暴龙 口袋版",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2087,
+        "name_en": "Monster & Me (China) [CHS]",
+        "name_cn": "幻灵游侠",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2088,
+        "name_en": "Cyber Space (China) [CHT]",
+        "name_cn": "异度空间",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2089,
+        "name_en": "Lost World (China) [CHS]",
+        "name_cn": "迷失的世界",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2090,
+        "name_en": "Fire Emblem Gaiden (China) [CHS]",
+        "name_cn": "火焰纹章外传",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2091,
+        "name_en": "Yue Ying Chuan Shuo (China) [CHS]",
+        "name_cn": "月影传说",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2092,
+        "name_en": "Satomi Hakkenden (China) [CHS]",
+        "name_cn": "八龙珠",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2093,
+        "name_en": "Xue Zhan San Guo (China) [CHS]",
+        "name_cn": "血战三国",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2094,
+        "name_en": "Ying Xiong Chuan Shuo (China) [CHS]",
+        "name_cn": "英雄传说",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2095,
+        "name_en": "Legend of Sword & Fairy (China) [CHS]",
+        "name_cn": "仙剑奇侠传",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2096,
+        "name_en": "Scar of the Sky, The (China) [CHS]",
+        "name_cn": "天之痕",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2097,
+        "name_en": "Liang Shan Heroes (China) [CHS]",
+        "name_cn": "梁山英雄",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2098,
+        "name_en": "Super Mario Land DX (World) [CHS]",
+        "name_cn": "超级马里奥乐园",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2099,
+        "name_en": "Magic Monkey (China) [CHT]",
+        "name_cn": "悟空降魔录 齐天大圣篇",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2100,
+        "name_en": "Metroid II - Return of Samus (World) [CHS]",
+        "name_cn": "银河战士 2 - 萨姆斯归来",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2101,
+        "name_en": "Shui Hu Shen Shou (China) [CHT]",
+        "name_cn": "天导108星",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2102,
+        "name_en": "Legend of Sword & Fairy (China) [CHS]",
+        "name_cn": "仙剑奇侠传",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2103,
+        "name_en": "Super Fighters 2001 Alpha (China) [CHT]",
+        "name_cn": "超级格斗 2001a",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2104,
+        "name_en": "Queen of Fighters 2000 (China) [CHT]",
+        "name_cn": "女王格斗 2000",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2105,
+        "name_en": "Satomi Hakkenden (China) [CHS]",
+        "name_cn": "八龙珠",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2106,
+        "name_en": "Zook Hero 3 (China) [CHT]",
+        "name_cn": "路克英雄传 3",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2107,
+        "name_en": "Jian Xia Qing Yuan (China) [CHS]",
+        "name_cn": "剑侠情缘",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2108,
+        "name_en": "Zui Zhong Huan Xiang (China) [CHS]",
+        "name_cn": "最终幻想",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2109,
+        "name_en": "Chaoji Yinsu Xiaozi II - Super Sonik II (China) [CHT]",
+        "name_cn": "超级音速小子",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2110,
+        "name_en": "Shengui Diguo Zhi Emo Cheng (China) [CHT]",
+        "name_cn": "神鬼帝国之恶魔城",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2111,
+        "name_en": "Feng Kuang A Gei III - Chao Ji Zha Dan Ren (China) [CHT]",
+        "name_cn": "疯狂阿给 3 - 超级炸弹人",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2112,
+        "name_en": "Wang Zu Tian Tang (China) [CHT]",
+        "name_cn": "王族天堂",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2113,
+        "name_en": "Chao Ren Te Gong Dui (China) [CHT]",
+        "name_cn": "超人特攻队",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2114,
+        "name_en": "Xian Dan Chao Ren - Ultraman (China) [CHT]",
+        "name_cn": "咸蛋超人",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2115,
+        "name_en": "Yi Xing VS Tie Xue Zhan Shi (China) [CHT]",
+        "name_cn": "异形vs.铁血战士",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2116,
+        "name_en": "Jue Dui Wu Li (China) [CHT]",
+        "name_cn": "绝对武力",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2117,
+        "name_en": "Wai Xing Tan Xian Zhi Xing Qiu Da Zhan (China) [CHT]",
+        "name_cn": "外星探险之星球大战",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2118,
+        "name_en": "Special Forces - Plan A (China) [CHS]",
+        "name_cn": "特种部队 - A计划",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2119,
+        "name_en": "Fu Jia San Guo (China) [CHS]",
+        "name_cn": "富甲三国",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2120,
+        "name_en": "Super Richman (China) [CHT]",
+        "name_cn": "超级大富豪",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2121,
+        "name_en": "Shen Diao Qi Xia (China) [CHS]",
+        "name_cn": "神雕奇侠",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2122,
+        "name_en": "Heroes of Jin Yong (China) [CHS]",
+        "name_cn": "金庸群侠传",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2123,
+        "name_en": "Ambush from Ten Sides - Heroes Chapter (China) [CHT]",
+        "name_cn": "十面埋伏 英雄篇",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2124,
+        "name_en": "Kindaichi Shounen no Jikenbo - 10nenme no Shoutaijou (Japan) [CHT]",
+        "name_cn": "金田一少年事件簿 - 十年后的邀请函",
+        "status": "unmatched"
+      },
+      {
+        "row_number": 2125,
+        "name_en": "Super Mario Land 2 DX - 6 Golden Coins (USA, Europe) [CHS]",
+        "name_cn": "超级马里奥乐园 2 - 6个金币",
+        "status": "unmatched"
+      }
+    ],
+    "multiple_translation_keys": [
+      "metal slug 2001 [cht]",
+      "shui hu shen shou [cht]"
+    ],
+    "matched_rows_by_method": {
+      "exact_title": 1945
+    }
+  },
+  "audit": {
+    "integrity_check": [
+      "ok"
+    ],
+    "foreign_key_errors": [],
+    "objects_checked": 2612,
+    "archive_plans_checked": 2679,
+    "compression_groups_checked": 77,
+    "historical_zip_objects": 2679,
+    "ok": true,
+    "errors": []
+  },
+  "stats": {
+    "counts": {
+      "files": 8496,
+      "objects": 5291,
+      "chunks": 36993,
+      "roms": 2605,
+      "dat_sets": 5,
+      "dat_roms": 13064,
+      "transformations": 0,
+      "packages": 12334,
+      "media": 0
+    },
+    "storage": {
+      "logical_content_bytes": 3473111015,
+      "historical_zip_bytes_not_stored": 1104804155,
+      "unique_raw_chunk_bytes": 2431614753,
+      "stored_chunk_bytes": 489411468,
+      "header_body_recipes": 0,
+      "zip_plans": 2679,
+      "file_occurrences": 8496,
+      "catalog_objects": 5291
+    },
+    "dat_coverage": [
+      {
+        "dat_set_id": 1,
+        "status": "matched",
+        "count": 2467
+      },
+      {
+        "dat_set_id": 1,
+        "status": "unmatched",
+        "count": 137
+      },
+      {
+        "dat_set_id": 2,
+        "status": "matched",
+        "count": 2467
+      },
+      {
+        "dat_set_id": 2,
+        "status": "unmatched",
+        "count": 145
+      },
+      {
+        "dat_set_id": 3,
+        "status": "matched",
+        "count": 2467
+      },
+      {
+        "dat_set_id": 3,
+        "status": "unmatched",
+        "count": 145
+      },
+      {
+        "dat_set_id": 4,
+        "status": "matched",
+        "count": 2467
+      },
+      {
+        "dat_set_id": 4,
+        "status": "unmatched",
+        "count": 147
+      },
+      {
+        "dat_set_id": 5,
+        "status": "matched",
+        "count": 2466
+      },
+      {
+        "dat_set_id": 5,
+        "status": "unmatched",
+        "count": 156
+      }
+    ],
+    "codecs": [
+      {
+        "codec": "group",
+        "blocks": 36979,
+        "raw_bytes": 2422120176,
+        "stored_bytes": 0
+      },
+      {
+        "codec": "lzma",
+        "blocks": 14,
+        "raw_bytes": 9494577,
+        "stored_bytes": 1525424
+      }
+    ],
+    "storage_schema_version": 4,
+    "compression_groups": {
+      "groups": 77,
+      "raw_bytes": 2422120176,
+      "stored_bytes": 487886044
+    },
+    "platform": "gbc",
+    "solid_groups": {
+      "groups": 77,
+      "raw_bytes": 2422120176,
+      "stored_bytes": 487886044
+    }
+  },
+  "finished_at": "2026-10-04T12:23:52.480755+00:00",
+  "seconds": 3224,
+  "database_bytes": 542048256
+}
