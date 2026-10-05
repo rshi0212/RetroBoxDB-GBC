@@ -4,38 +4,60 @@
   "fetched_at": "2026-10-04T12:11:19.203684+00:00",
   "ra_games_with_achievements": 419,
   "status_totals": {
-    "local": 327,
-    "dat_only": 8,
-    "nointro_db_only": 4,
-    "unmatched": 80
+    "local": 402,
+    "dat_only": 1,
+    "nointro_db_only": 0,
+    "unmatched": 16
   },
   "by_category": {
     "Official": {
-      "local": 289,
-      "unmatched": 16
+      "local": 304,
+      "unmatched": 1
     },
     "Prototype": {
       "local": 6
     },
     "Hack": {
-      "unmatched": 20
+      "local": 17,
+      "unmatched": 3
     },
     "Homebrew/Demo": {
-      "unmatched": 4
+      "local": 3,
+      "unmatched": 1
     },
     "Homebrew": {
-      "local": 27,
-      "unmatched": 38,
-      "dat_only": 8
+      "local": 62,
+      "unmatched": 10,
+      "dat_only": 1
     },
     "Unlicensed": {
-      "nointro_db_only": 4,
-      "local": 5
+      "local": 9
     },
     "Homebrew/Prototype": {
-      "unmatched": 2
+      "local": 1,
+      "unmatched": 1
     }
   },
-  "local_roms_with_achievements": 413,
-  "rule": "RA hash = MD5 of the complete file; exact hash equality only"
+  "local_roms_with_achievements": 584,
+  "rule": "RA hash = MD5 of the complete file; exact hash equality only",
+  "local_games_by_source": {
+    "nointro": 17,
+    "nointro,retroachievements": 310,
+    "retroachievements": 75
+  },
+  "retroachievements_collections": {
+    "RA - Nintendo Game Boy Color": {
+      "in_nointro_dat": 422,
+      "ra_hash_unknown": 8,
+      "ra_only": 145
+    }
+  },
+  "collection_files_with_unknown_ra_hash": 8,
+  "missing_by_category": {
+    "Hack": 3,
+    "Homebrew": 11,
+    "Official": 1,
+    "Homebrew/Prototype": 1,
+    "Homebrew/Demo": 1
+  }
 }

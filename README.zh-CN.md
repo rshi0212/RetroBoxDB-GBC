@@ -6,18 +6,18 @@
 
 | 项目 | 数值 |
 | --- | --- |
-| 原始大小 | No-Intro ZIP 3,006 个，1.06 GiB；解压后 ROM 3,006 个，3.50 GiB |
-| 入库后大小 | 完整库 504.1 MiB；公开 Catalog 44.2 MiB（不含 ROM 数据） |
-| 比例 | 完整库为原 ZIP 的 46.6%，为解压后 ROM 总量的 14.1% |
+| 原始大小 | 源 ZIP 3,581 个，1.38 GiB（No-Intro 3,006 个，RetroAchievements 集合 575 个）；解压后 ROM 3,581 个，4.42 GiB |
+| 入库后大小 | 完整库 522.2 MiB；公开 Catalog 45.5 MiB（不含 ROM 数据） |
+| 比例 | 完整库为原 ZIP 的 37.1%，为解压后 ROM 总量的 11.5% |
 | 使用的技术 | 存储 v4：64 KiB 块按 SHA256 去重，按 No-Intro 游戏族顺序装入最大 256 MiB 的 LZMA2 实体组（字典 256 MiB）；逐块 SHA256、逐对象 CRC32／MD5／SHA1／SHA256 校验；源 ZIP 由 TorrentZip 配方逐字节重建 |
-| 导出性能 | Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz，空闲负载，Python 3.14.4，含全部校验。全集合顺序导出（3,006 个 ROM 文件，每组解压一次）：26.5 MiB/s，平均 45 毫秒／个；单个文件冷缓存（每次清空缓存，需解压所在组的前段）：ROM 平均 1.676 秒，TorrentZip 平均 1.923 秒 |
+| 导出性能 | Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz，空闲负载，Python 3.14.4，含全部校验。全集合顺序导出（3,581 个 ROM 文件，每组解压一次）：35.7 MiB/s，平均 36 毫秒／个；单个文件冷缓存（每次清空缓存，需解压所在组的前段）：ROM 平均 1.719 秒，TorrentZip 平均 1.857 秒 |
 
 ## 下载与说明
 
 | 文件／文档 | 内容 |
 | --- | --- |
 | [RetroBoxDB.GBC.Catalog.sqlite](https://github.com/rshi0212/RetroBoxDB-GBC/releases/latest/download/RetroBoxDB.GBC.Catalog.sqlite) | 公开 Catalog（Release 附件，附 `SHA256SUMS`） |
-| [存储 v4 说明](RetroBoxDB.Storage-v4.zh-CN.md)／[English](RetroBoxDB.Storage-v4.en.md) | 六个平台的存储评估、内容、RA、中文名与维护 |
+| [存储 v4 说明](RetroBoxDB.Storage-v4.zh-CN.md)／[English](RetroBoxDB.Storage-v4.en.md) | 七个平台的存储评估、内容、RA、中文名与维护 |
 | [Technical design](RetroBoxDB.Storage-v4.Technical-Design.en.md) | 存储格式、平台适配、增量更新、校验 |
 | [RA 清单](reports/ra-gbc-games.csv)／[汇总](reports/ra-gbc.json)、[构建报告](reports/gbc-build-report.json)、[审计处理](reports/audit-resolution-20261004.md) | 逐项数据 |
 
@@ -32,13 +32,14 @@
 
 | 项目 | 数值 |
 | --- | --- |
-| ROM 记录／游戏组／发行版本 | 2,605／1,576／2,622 |
-| 各版 DAT 覆盖 | 20260602-074724：2,467/2,604；20260713-134329：2,467/2,612；20260715-062319：2,467/2,612；20260814-104253：2,467/2,614；20261001-131920：2,466/2,622 |
-| 不在任何 DAT 的本地 ROM | 137 |
+| ROM 记录／游戏组／发行版本 | 2,784／1,576／2,622 |
+| 各版 DAT 覆盖 | 20260602-074724：2,502/2,604；20260713-134329：2,503/2,612；20260715-062319：2,503/2,612；20260814-104253：2,503/2,614；20261001-131920：2,503/2,622 |
+| 不在任何 DAT 的本地 ROM | 279 |
+| RetroAchievements 集合中的 ROM 文件 | DAT 中有 422，仅 RA 收录 145，哈希不在最新 RA 快照 8（[清单](reports/ra-gbc-collection-unknown.csv)）；仍缺本地 ROM 的 RA 游戏见 [缺口清单](reports/ra-gbc-missing.csv) |
 | No-Intro DB Export＋Dump Log 20261001-131920 | 2,678 个档案、2,921 个文件身份、2,830 条有文档的硬件声明；Dump Log Verified 448 |
-| RetroAchievements（console 6） | 有成就的游戏 419 个：本地有 ROM 327（413 个 ROM），仅 DAT 有 8，仅 DB 文件 4，无 No-Intro 对应 80 |
-| 中文名 | 2,124 条记录中 1,763 条有中文（1,156 个唯一名）；本地 ROM 1,639 个有中文名 |
-| 完整库审计 | 2,612 个对象、10 个组、2,679 个 ZIP 配方，全部通过 |
+| RetroAchievements（console 6） | 有成就的游戏 419 个：本地有 ROM 402（584 个 ROM），仅 DAT 有 1，仅 DB 文件 0，无 No-Intro 对应 16 |
+| 中文名 | 2,124 条记录中 1,763 条有中文（1,156 个唯一名）；本地 ROM 1,663 个有中文名 |
+| 完整库审计 | 2,791 个对象、13 个组、2,931 个 ZIP 配方，全部通过 |
 
 源 ZIP 均可由 TorrentZip 配方逐字节重建（`v_file_checksums.exported_bytes_equal_source`）。
 
