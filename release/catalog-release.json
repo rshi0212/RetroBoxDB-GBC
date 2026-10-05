@@ -1,10 +1,10 @@
 {
-  "tag": "gbc-catalog-20261005-2",
+  "tag": "gbc-catalog-20261005-3",
   "title": "Game Boy Color Catalog: RetroAchievements ROM set and source collections",
   "platform": "gbc",
   "catalog_name": "RetroBoxDB.GBC.Catalog.sqlite",
-  "base_url": "https://github.com/rshi0212/RetroBoxDB-GBC/releases/download/gbc-catalog-base-20261005-2/RetroBoxDB.GBC.Catalog.sqlite",
-  "base_sha256": "16e0fb846ee013427ec8d1ca572fdf86c741237304268b0a3f90b64c42d4c5eb",
+  "base_url": "https://github.com/rshi0212/RetroBoxDB-GBC/releases/download/gbc-catalog-base-20261005-3/RetroBoxDB.GBC.Catalog.sqlite",
+  "base_sha256": "ebc1d2fce4dbf5cb1f8779a13e41e5331f946298224e56b67441c1b7b86bbf68",
   "data_table_sha256": {
     "archive_entries": {
       "rows": 2932,
@@ -43,8 +43,8 @@
       "sha256": "b3e76d1a2e23fec6a48f0effc157fcf53a6bef9548b4acd76509bd4066ec77e2"
     },
     "events": {
-      "rows": 32,
-      "sha256": "13b693aa80f57c0ae565ce7c05401a3d9094b774b861e2698fcab087d038fe25"
+      "rows": 34,
+      "sha256": "ecf1cd0c4bd3d21204557b8beac41a30fb9d9cbca9bea1b79df45414dc737541"
     },
     "fds_hardware": {
       "rows": 0,
