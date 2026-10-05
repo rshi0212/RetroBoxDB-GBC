@@ -10,7 +10,7 @@ Single-file SQLite preservation database for Nintendo Game Boy Color. The public
 | Stored size | populated database 522.2 MiB; public Catalog 45.5 MiB (no ROM data) |
 | Ratio | 37.1% of the source ZIPs, 11.5% of the uncompressed ROM files |
 | Technology | storage v4: SHA256-deduplicated 64 KiB blocks packed in No-Intro family order into solid LZMA2 groups of up to 256 MiB (256 MiB dictionary); per-block SHA256 and per-object CRC32/MD5/SHA1/SHA256 verification; source ZIPs reproduced byte-for-byte from TorrentZip plans |
-| Export performance | Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz, idle, Python 3.14.4, all checks included. Whole-set export (3,581 ROM files in storage order, each group decoded once): 35.7 MiB/s, 36 ms per file on average; single file with a cold cache (the group is decoded up to the file): ROM 1.719 s, TorrentZip 1.857 s on average |
+| Export performance | Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz, idle, Python 3.14.4, all checks included. whole newest-DAT set with `export_set.py` (2,503 files, each checked against the DAT hashes): 56.2 MiB/s, 23 ms per file on average; single file with a cold cache (the group is decoded up to the file): ROM 1.719 s, TorrentZip 1.857 s on average |
 
 ## Downloads and documents
 
