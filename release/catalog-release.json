@@ -1,10 +1,10 @@
 {
-  "tag": "gbc-catalog-20261005-3",
-  "title": "Game Boy Color Catalog: RetroAchievements ROM set and source collections",
+  "tag": "gbc-catalog-20261006",
+  "title": "Game Boy Color Catalog: eight-platform engine and documentation",
   "platform": "gbc",
   "catalog_name": "RetroBoxDB.GBC.Catalog.sqlite",
-  "base_url": "https://github.com/rshi0212/RetroBoxDB-GBC/releases/download/gbc-catalog-base-20261005-3/RetroBoxDB.GBC.Catalog.sqlite",
-  "base_sha256": "ebc1d2fce4dbf5cb1f8779a13e41e5331f946298224e56b67441c1b7b86bbf68",
+  "base_url": "https://github.com/rshi0212/RetroBoxDB-GBC/releases/download/gbc-catalog-base-20261006/RetroBoxDB.GBC.Catalog.sqlite",
+  "base_sha256": "ec7c3524e3ca310a5ffa7a225597ceedd3fcb4db5bd0b414981a3d64b9637a22",
   "data_table_sha256": {
     "archive_entries": {
       "rows": 2932,
@@ -17,6 +17,10 @@
     "archive_profiles": {
       "rows": 1,
       "sha256": "a8247ca6bd7302d45bbf2e6dfe2fae5b8624f1333cc6a4087cd18bac6e463690"
+    },
+    "bsx_hardware": {
+      "rows": 0,
+      "sha256": "44f335cb2b7c8f195e63c47f303f37dadc7e880771c4b23baef96323d6cb90d3"
     },
     "chunks": {
       "rows": 0,
@@ -43,8 +47,8 @@
       "sha256": "b3e76d1a2e23fec6a48f0effc157fcf53a6bef9548b4acd76509bd4066ec77e2"
     },
     "events": {
-      "rows": 34,
-      "sha256": "ecf1cd0c4bd3d21204557b8beac41a30fb9d9cbca9bea1b79df45414dc737541"
+      "rows": 36,
+      "sha256": "9e1b207662f0d82c719a52c637ad13176c63bc653a9e1bb1ce8824f384478249"
     },
     "fds_hardware": {
       "rows": 0,
@@ -383,6 +387,10 @@
     "storage-experiment-fds": {
       "kind": "json",
       "path": "assessment/data/storage-experiment-fds.json"
+    },
+    "storage-experiment-satellaview": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-satellaview.json"
     },
     "storage-curves": {
       "kind": "json",
