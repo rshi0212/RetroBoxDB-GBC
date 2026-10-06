@@ -1,8 +1,10 @@
 GBC Catalog, storage v4 (64 KiB blocks, 13 solid LZMA2 groups of up to 256 MiB). Metadata only: **no ROM payloads are published**; `compression_groups`, `chunks` and `object_chunks` are empty.
 
-- RetroAchievements reports look up sibling databases (NES<->FDS, SNES<->Satellaview): a game whose ROM is stored there is `local_other_platform`, not a gap.
-- Engine: block sizes may be any power of two from 4 KiB to 1 MiB; a parser may store a header in another table (BS-X base cartridge).
-- Source: 3,581 ZIPs (nointro 3,006, retroachievements 575), 1.38 GiB (3,581 ROM files, 4.42 GiB uncompressed). Populated database: 522.3 MiB (37.1% of the ZIPs). All source ZIPs are reproduced byte-for-byte.
+- `meta.storage` corrected: after retuning it still described the original group size.
+- Naming normalized: platform codes are the Batocera system names, every populated database is `RetroBoxDB.<label>.sqlite`, and `meta.scope` / `meta.storage` are derived from the platform and the current storage parameters.
+- One schema for all fifteen platforms: the header tables of every platform (including Master System, 32X, WonderSwan, NeoGeo Pocket and Pokémon Mini) and the provider-information tables exist in every Catalog; tables of other platforms and provider tables have no rows.
+- RetroAchievements reports look up sibling databases (NES<->FDS, SNES<->Satellaview, WonderSwan<->WonderSwan Color, NeoGeo Pocket<->NeoGeo Pocket Color): a game whose ROM is stored there is `local_other_platform`, not a gap.
+- Source: 3,581 ZIPs (nointro 3,006, retroachievements 575), 1.38 GiB (3,581 ROM files, 4.42 GiB uncompressed). Populated database: 522.4 MiB (37.1% of the ZIPs). All source ZIPs are reproduced byte-for-byte.
 - Contents: 2,784 ROM records, 1,576 games, 2,622 releases; DAT versions: 20260602-074724, 20260713-134329, 20260715-062319, 20260814-104253, 20261001-131920.
 - RetroAchievements: 402 of 419 games with achievements have a local ROM.
 - Export (Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz, idle, all checks): whole newest-DAT set with export_set.py 56.2 MiB/s (2,503 files); single file with a cold cache 1.719 s (ROM) / 1.857 s (TorrentZip) on average.
