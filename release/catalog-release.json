@@ -1,10 +1,10 @@
 {
-  "tag": "gbc-catalog-20261006-2",
-  "title": "Game Boy Color Catalog: naming normalized, one schema for fifteen platforms",
+  "tag": "gbc-catalog-20261006-3",
+  "title": "Game Boy Color Catalog: one schema for twenty-three platforms",
   "platform": "gbc",
   "catalog_name": "RetroBoxDB.GBC.Catalog.sqlite",
-  "base_url": "https://github.com/rshi0212/RetroBoxDB-GBC/releases/download/gbc-catalog-base-20261006-2/RetroBoxDB.GBC.Catalog.sqlite",
-  "base_sha256": "51196fde7e0d1811deb572132166cf212a3c41eac2753297594d4565b682ed0f",
+  "base_url": "https://github.com/rshi0212/RetroBoxDB-GBC/releases/download/gbc-catalog-base-20261006-3/RetroBoxDB.GBC.Catalog.sqlite",
+  "base_sha256": "d3711b60accf450edd9a0b9972d7cba9c3f29b7d0ae85a93f0671a143de7094d",
   "data_table_sha256": {
     "archive_entries": {
       "rows": 2932,
@@ -47,8 +47,8 @@
       "sha256": "b3e76d1a2e23fec6a48f0effc157fcf53a6bef9548b4acd76509bd4066ec77e2"
     },
     "events": {
-      "rows": 44,
-      "sha256": "4d5b848710c6730de4800eba3f50998784ff4f0d8d43a4611f719d536a306d26"
+      "rows": 46,
+      "sha256": "f8415c6bd94dda3a4a80b37bb9fc4a392bd2dad61c8e4309fe08d2cab415a2ff"
     },
     "fds_hardware": {
       "rows": 0,
@@ -125,6 +125,10 @@
     "meta": {
       "rows": 23,
       "sha256": "01656e2f673ba79386cc72272faa158b967fae2fd5f56e3122064278523643eb"
+    },
+    "msx_hardware": {
+      "rows": 0,
+      "sha256": "d27cf02566368e3887c71b1c9860a2d5c62de09c8015bb24f3231bf92bc79655"
     },
     "naming_decisions": {
       "rows": 669,
@@ -214,6 +218,10 @@
       "rows": 12514,
       "sha256": "b7b9d8eae12880f943e2fdaa6b6b9cc24d22b8e6960c77c6d4a6e553de16b64b"
     },
+    "pce_hardware": {
+      "rows": 0,
+      "sha256": "89bb45ffcf0a90c76bf0461001f7162856a2170a601a10834156757ce53ef7d5"
+    },
     "platforms": {
       "rows": 1,
       "sha256": "e737ac6dc64437dc055541697196feb2e5e1da72ee66153b30875f693e3ccdb7"
@@ -269,6 +277,10 @@
     "repair_attempts": {
       "rows": 0,
       "sha256": "3c642e0d29d1e5dab60d2328c3d565be7c0acc7c70e44cb33566db7e538d7ffa"
+    },
+    "rom_annotations": {
+      "rows": 0,
+      "sha256": "eb081c996d4937ce6fad179a0fb6bd6fce7cbf9dd23a328aa578924ff4d42a61"
     },
     "rom_components": {
       "rows": 8350,
@@ -346,6 +358,10 @@
       "rows": 12514,
       "sha256": "4a33de6f2851372e13ac9fdda742c94fdac772eb8f363d4e5ae32ad0c1b514a0"
     },
+    "vb_hardware": {
+      "rows": 0,
+      "sha256": "517f834f0e1aee837276d1e82c4128fdb1d52a002d02af1fa78d1699e19b1b44"
+    },
     "ws_hardware": {
       "rows": 0,
       "sha256": "db3b69505e80a7a046eb7fae0f6d4ba62fa9a50462e32bc8885593fccdf1844d"
@@ -420,6 +436,10 @@
       "kind": "python",
       "path": "tools/normalize_db.py"
     },
+    "msx_route.py": {
+      "kind": "python",
+      "path": "tools/msx_route.py"
+    },
     "tests_v4.py": {
       "kind": "python",
       "path": "tests/test_v4.py"
@@ -479,6 +499,38 @@
     "storage-experiment-pokemini": {
       "kind": "json",
       "path": "assessment/data/storage-experiment-pokemini.json"
+    },
+    "storage-experiment-gamegear": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-gamegear.json"
+    },
+    "storage-experiment-pcengine": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-pcengine.json"
+    },
+    "storage-experiment-supergrafx": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-supergrafx.json"
+    },
+    "storage-experiment-msx1": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-msx1.json"
+    },
+    "storage-experiment-msx2": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-msx2.json"
+    },
+    "storage-experiment-virtualboy": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-virtualboy.json"
+    },
+    "storage-experiment-gameandwatch": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-gameandwatch.json"
+    },
+    "storage-experiment-supracan": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-supracan.json"
     },
     "storage-curves": {
       "kind": "json",
